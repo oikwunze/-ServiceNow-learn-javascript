@@ -19,3 +19,7 @@ Solutions to lab exercises can also be found in the *Lab Solutions* folder.
 * [TechNow webinars](https://devlink.sn/technow)
 * [ServiceNow Community](https://community.servicenow.com)
 * [Stephen Bell's Scripting Best Practices Videos](https://www.youtube.com/user/ServiceNowCommunity/search?query=scripting+best+practices)
+
+
+# Scripting
+
