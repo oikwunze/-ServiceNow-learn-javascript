@@ -23,3 +23,21 @@ Solutions to lab exercises can also be found in the *Lab Solutions* folder.
 
 # Scripting
 
+## Common Scripting Locations
+
+```
+Business Rules -- A server-side script that runs when a record is 
+                  displayed, inserted, updated, or deleted, or when a table is queried.
+Script includes
+Client Scripts
+UI Actions
+UI Policies
+Scheduled Jobs
+Workflows
+Transform Maps
+Web Services
+UI Pages & UI Macros
+Service Portal Widgets
+
+```
+
