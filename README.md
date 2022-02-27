@@ -26,18 +26,54 @@ Solutions to lab exercises can also be found in the *Lab Solutions* folder.
 ## Common Scripting Locations
 
 ```
-Business Rules -- A server-side script that runs when a record is 
+Business Rules -- A server-side script that runs when a RECORD is 
                   displayed, inserted, updated, or deleted, or when a table is queried.
-Script includes
-Client Scripts
-UI Actions
-UI Policies
-Scheduled Jobs
-Workflows
+               -- Triggered by database operations
+               
+Script includes -- Stores Javascript Classes & functions/methods
+                -- Reusable code
+                -- only run when invoked
+                -- Server-side Javascript
+                -- Can be called from Server-side or Client-side
+
+Client Scripts -- Client scripts run on the client. You can use client script to define 
+                  custom behaviors that run when event occur such as when a 
+                  FORM is loaded or submitted, or a cell changes value.
+               -- Triggered by Field changes, Page Loads, Form submission, cell edits
+               -- Form Views
+               
+UI Actions -- UI actions add buttons, links, and context menu items on form lists, 
+              making the UI more interactive, customizable, and specific to user activities.
+           -- UI action can be BUTTON, MENU ITEMS, LINKS
+           -- Server-side or client-side, or Both
+           -- Typically configured for FORM VIEW
+           
+UI Policies -- Used to set fields to READ-ONLY, MANDATORY, SHOW/HIDE.
+
+Scheduled Jobs -- Scheduled jobs are automated pieces of work that can be 
+                  performed at either a particular time, or on a recurring schedule.
+               -- Server-side Javascript
+               
+Workflows -- Automated sequence of activities
+          -- Server-side JavaScript
+          --  Many locations to script in a workflow
+
+
 Transform Maps
 Web Services
 UI Pages & UI Macros
 Service Portal Widgets
+
+```
+
+# GlideAjax
+
+```
+GlideAjax -- Enable a client script to call server-side code in a script include
+          -- Client-side
+          -- Stands for Asynchronous JavaScript and XML
+          -- Uses browser's XMLHttpRequest API
+          -- ga
 
 ```
 
